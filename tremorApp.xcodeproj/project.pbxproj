@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18923E0F2A04F061004E44F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18923E0E2A04F061004E44F4 /* AppDelegate.swift */; };
+		18923E112A04F061004E44F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18923E102A04F061004E44F4 /* SceneDelegate.swift */; };
+		18923E132A04F061004E44F4 /* TremorAnalizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18923E122A04F061004E44F4 /* TremorAnalizeViewController.swift */; };
+		18923E182A04F063004E44F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18923E172A04F063004E44F4 /* Assets.xcassets */; };
+		18923E1B2A04F063004E44F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18923E192A04F063004E44F4 /* LaunchScreen.storyboard */; };
+		18923E252A04F214004E44F4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18923E242A04F214004E44F4 /* TabBarController.swift */; };
+		18923E272A04F417004E44F4 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18923E262A04F417004E44F4 /* ResultViewController.swift */; };
+		18923E292A04F920004E44F4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18923E282A04F920004E44F4 /* PageViewController.swift */; };
+		18923E2B2A04FA5A004E44F4 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18923E2A2A04FA5A004E44F4 /* SlideViewController.swift */; };
+		18923E2F2A050E3E004E44F4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18923E2E2A050E3E004E44F4 /* LoginViewController.swift */; };
+		18EBD7652A065022002E6F0A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBD7642A065022002E6F0A /* Profile.swift */; };
+		18EBD7682A065074002E6F0A /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBD7672A065074002E6F0A /* UserStorage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18923E0B2A04F061004E44F4 /* tremorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tremorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18923E0E2A04F061004E44F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18923E102A04F061004E44F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18923E122A04F061004E44F4 /* TremorAnalizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorAnalizeViewController.swift; sourceTree = "<group>"; };
+		18923E172A04F063004E44F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18923E1A2A04F063004E44F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18923E1C2A04F063004E44F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18923E242A04F214004E44F4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		18923E262A04F417004E44F4 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		18923E282A04F920004E44F4 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		18923E2A2A04FA5A004E44F4 /* SlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
+		18923E2E2A050E3E004E44F4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18EBD7642A065022002E6F0A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		18EBD7672A065074002E6F0A /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18923E082A04F061004E44F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18923E022A04F061004E44F4 = {
+			isa = PBXGroup;
+			children = (
+				18923E0D2A04F061004E44F4 /* tremorApp */,
+				18923E0C2A04F061004E44F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18923E0C2A04F061004E44F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18923E0B2A04F061004E44F4 /* tremorApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18923E0D2A04F061004E44F4 /* tremorApp */ = {
+			isa = PBXGroup;
+			children = (
+				18923E232A04F160004E44F4 /* ViewControllers */,
+				18923E222A04F12C004E44F4 /* Resources */,
+				18923E1C2A04F063004E44F4 /* Info.plist */,
+			);
+			path = tremorApp;
+			sourceTree = "<group>";
+		};
+		18923E222A04F12C004E44F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18923E0E2A04F061004E44F4 /* AppDelegate.swift */,
+				18923E102A04F061004E44F4 /* SceneDelegate.swift */,
+				18923E172A04F063004E44F4 /* Assets.xcassets */,
+				18923E192A04F063004E44F4 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18923E232A04F160004E44F4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18EBD7662A06505C002E6F0A /* Managers */,
+				18EBD7632A06500D002E6F0A /* Models */,
+				18EBD7602A064F24002E6F0A /* Enums */,
+				18923E2D2A050952004E44F4 /* Core */,
+				18923E2C2A050939004E44F4 /* PageViews */,
+				18923E122A04F061004E44F4 /* TremorAnalizeViewController.swift */,
+				18923E262A04F417004E44F4 /* ResultViewController.swift */,
+				18923E2E2A050E3E004E44F4 /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18923E2C2A050939004E44F4 /* PageViews */ = {
+			isa = PBXGroup;
+			children = (
+				18923E282A04F920004E44F4 /* PageViewController.swift */,
+				18923E2A2A04FA5A004E44F4 /* SlideViewController.swift */,
+			);
+			path = PageViews;
+			sourceTree = "<group>";
+		};
+		18923E2D2A050952004E44F4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18923E242A04F214004E44F4 /* TabBarController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		18EBD7602A064F24002E6F0A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		18EBD7632A06500D002E6F0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18EBD7642A065022002E6F0A /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18EBD7662A06505C002E6F0A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				18EBD7672A065074002E6F0A /* UserStorage.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18923E0A2A04F061004E44F4 /* tremorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18923E1F2A04F063004E44F4 /* Build configuration list for PBXNativeTarget "tremorApp" */;
+			buildPhases = (
+				18923E072A04F061004E44F4 /* Sources */,
+				18923E082A04F061004E44F4 /* Frameworks */,
+				18923E092A04F061004E44F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tremorApp;
+			productName = tremorApp;
+			productReference = 18923E0B2A04F061004E44F4 /* tremorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18923E032A04F061004E44F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					18923E0A2A04F061004E44F4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 18923E062A04F061004E44F4 /* Build configuration list for PBXProject "tremorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18923E022A04F061004E44F4;
+			productRefGroup = 18923E0C2A04F061004E44F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18923E0A2A04F061004E44F4 /* tremorApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18923E092A04F061004E44F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18923E1B2A04F063004E44F4 /* LaunchScreen.storyboard in Resources */,
+				18923E182A04F063004E44F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18923E072A04F061004E44F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18923E272A04F417004E44F4 /* ResultViewController.swift in Sources */,
+				18923E132A04F061004E44F4 /* TremorAnalizeViewController.swift in Sources */,
+				18923E252A04F214004E44F4 /* TabBarController.swift in Sources */,
+				18923E292A04F920004E44F4 /* PageViewController.swift in Sources */,
+				18EBD7682A065074002E6F0A /* UserStorage.swift in Sources */,
+				18923E2F2A050E3E004E44F4 /* LoginViewController.swift in Sources */,
+				18923E0F2A04F061004E44F4 /* AppDelegate.swift in Sources */,
+				18923E2B2A04FA5A004E44F4 /* SlideViewController.swift in Sources */,
+				18EBD7652A065022002E6F0A /* Profile.swift in Sources */,
+				18923E112A04F061004E44F4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18923E192A04F063004E44F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18923E1A2A04F063004E44F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18923E1D2A04F063004E44F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18923E1E2A04F063004E44F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18923E202A04F063004E44F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2335D85AV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tremorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.tremorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18923E212A04F063004E44F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2335D85AV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tremorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.tremorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18923E062A04F061004E44F4 /* Build configuration list for PBXProject "tremorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18923E1D2A04F063004E44F4 /* Debug */,
+				18923E1E2A04F063004E44F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18923E1F2A04F063004E44F4 /* Build configuration list for PBXNativeTarget "tremorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18923E202A04F063004E44F4 /* Debug */,
+				18923E212A04F063004E44F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18923E032A04F061004E44F4 /* Project object */;
+}
